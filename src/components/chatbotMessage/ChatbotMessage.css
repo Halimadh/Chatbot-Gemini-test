@@ -1,0 +1,23 @@
+.chat-message-user {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 10px;
+  justify-content: end;
+}
+.chat-message-robot {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 10px;
+}
+.message {
+  background: hsl(0, 1%, 86%);
+  border-radius: 5px;
+  min-width: 6rem;
+  text-align: center;
+  padding: 5px;
+}
+img {
+  object-fit: contain;
+}
